@@ -1,5 +1,5 @@
 
-def main():
+def Largest_prime_factor():
     """
     The prime factors of 13195 are 5, 7, 13 and 29.
 
@@ -11,7 +11,7 @@ def main():
         while n % i == 0:
             n = n / i
         i = i + 1
-    print(n)
+    return n
 
 if __name__ == '__main__':
-    main()
+    print(Largest_prime_factor())

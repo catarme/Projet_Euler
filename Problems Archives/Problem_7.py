@@ -1,6 +1,6 @@
 import sympy
 
-def main():
+def Ten_thousand_and_one_st_prime():
     """
     By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
     
@@ -15,4 +15,4 @@ def main():
     return number[-1]
 
 if __name__ == '__main__':
-    print(main())
+    print(Ten_thousand_and_one_st_prime())

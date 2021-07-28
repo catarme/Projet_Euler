@@ -1,5 +1,5 @@
 
-def main():
+def Special_Pythagorean_triplet():
     """
     A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
     a2 + b2 = c2
@@ -15,4 +15,4 @@ def main():
                     print(a * b * c)
 
 if __name__ == '__main__':
-    print(main())
+    print(Special_Pythagorean_triplet())

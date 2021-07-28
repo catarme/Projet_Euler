@@ -1,5 +1,5 @@
 
-def main():
+def Largest_product_in_a_series():
     """
     The four adjacent digits in the 1000-digit number that have the greatest product are 9 × 9 × 8 × 9 = 5832.
 
@@ -35,4 +35,4 @@ def main():
         if product > max_product:
 
 if __name__ == '__main__':
-    print(main())
+    print(Largest_product_in_a_series())
