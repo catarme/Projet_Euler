@@ -2,6 +2,11 @@
 
 if __name__ == "__main__":
     result = 1
-    for i in range(1, 101):
+    for i in range(100):
         result *= i + 1
-    print("100! = ", result)
+    result = str(result)
+    res = 0
+    for i in result:
+        res += int(i)
+    
+    print("100! = ", res, "\n")
