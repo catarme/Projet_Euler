@@ -1,9 +1,9 @@
-
-def name_score(name):
+def name_score(name) -> int:
     score = 0
     for i in name:
         score += ord(i) - 64
     return score
+
 
 if __name__ == "__main__":
     fichier = open("p022_names.txt", "r")
@@ -12,5 +12,5 @@ if __name__ == "__main__":
     names.sort()
     resultat = 0
     for i, name in enumerate(names):
-        resultat += name_score(name)*(i+1)
+        resultat += name_score(name) * (i + 1)
     print(resultat)

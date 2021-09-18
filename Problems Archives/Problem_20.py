@@ -1,5 +1,4 @@
 
-
 if __name__ == "__main__":
     result = 1
     for i in range(100):

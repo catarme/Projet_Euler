@@ -7,7 +7,7 @@ def Is_divisible(n):
 
 if __name__ == '__main__':
     iteration = 1
-    while Is_divisible(iteration) == False:
+    while not Is_divisible(iteration):
         iteration += 1
 
     print(iteration)

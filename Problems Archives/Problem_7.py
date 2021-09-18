@@ -4,7 +4,7 @@ if __name__ == '__main__':
     number = []
     iteration = 2
     while len(number) != 10_001:
-        if sympy.isprime(iteration) == True:
+        if sympy.isprime(iteration):
             number.append(iteration)
         iteration += 1
 

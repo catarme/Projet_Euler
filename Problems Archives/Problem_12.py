@@ -1,15 +1,15 @@
-
 def divisors(nb, extremum = False):
-    divisors = []
+    divisor = []
     inf = 1 if extremum else 2
-    for i in range(inf, int(nb**0.5)+1):
+    for i in range(inf, int(nb ** 0.5) + 1):
         q, r = divmod(nb, i)
         if r == 0:
             if q >= i:
-                divisors.append(i)
+                divisor.append(i)
                 if q > i:
-                    divisors.append(nb//i)
-    return divisors
+                    divisor.append(nb // i)
+    return divisor
+
 
 if __name__ == "__main__":
     triangle = 3

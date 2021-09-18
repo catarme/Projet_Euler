@@ -1,12 +1,12 @@
 
-def Is_palindrome(x):
-    return str(x) == str(x)[::-1]
+def Is_palindrome(value: int) -> bool:
+    return str(value) == str(value)[::-1]
 
 if __name__ == '__main__':
-    THEBIGEST = 0
+    bigest = 0
     for i in range(999):
         for x in range(999):
             if Is_palindrome(i*x):
-                THEBIGEST = max(THEBIGEST, i*x)
+                bigest = max(bigest, i * x)
 
-    print(THEBIGEST)
+    print(bigest)

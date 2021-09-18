@@ -6,6 +6,6 @@ if __name__ == "__main__":
             L.append(i)
     result = 0
     for i in L:
-        result+= i
+        result += i
 
     print(result)
